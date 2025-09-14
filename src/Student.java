@@ -17,4 +17,4 @@ public class Student {
         if (grades.isEmpty()) return 0.0;
         return grades.stream().mapToDouble(Grade::getValue).average().orElse(0.0);
     }
-}
+}   
