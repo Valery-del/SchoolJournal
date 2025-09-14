@@ -13,8 +13,8 @@ public class Student {
     public List<Grade> getGrades() { return grades; }
     public void addGrade(Grade grade) { grades.add(grade); }
     public double getAverageGrade() {
-        System.out.println("Computing avg for " + name);
+        System.out.println("Calculating average for " + name);
         if (grades.isEmpty()) return 0.0;
         return grades.stream().mapToDouble(Grade::getValue).average().orElse(0.0);
-    }
+}
 }
