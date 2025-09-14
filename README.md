@@ -13,4 +13,4 @@
 ## Архитектура
 - Model: Student.java, Subject.java, Grade.java
 - Controller: JournalController.java
-- View: ConsoleView.java# Test change
+- View: ConsoleView.java
