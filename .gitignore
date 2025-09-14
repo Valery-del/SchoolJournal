@@ -1,0 +1,13 @@
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json
+
+# Temp files
+*.tmp
+*.log
+.DS_Store
+
+# Java build
+target/
+*.class
+*.jar
